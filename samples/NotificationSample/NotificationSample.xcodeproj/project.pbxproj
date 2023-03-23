@@ -21,6 +21,7 @@
 		0AFAD6FA29CC538900510940 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0AFAD6F929CC538900510940 /* FirebaseMessaging */; };
 		0AFAD6FB29CC538900510940 /* GoPushCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFAD6E329CC530800510940 /* GoPushCore.xcframework */; };
 		0AFAD6FC29CC538900510940 /* GoPushNotifications.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFAD6E429CC530900510940 /* GoPushNotifications.xcframework */; };
+		0AFAD6FF29CC9D2C00510940 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAD6FE29CC9D2C00510940 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,9 @@
 		0AFAD6EC29CC536C00510940 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFAD6EE29CC536C00510940 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		0AFAD6F029CC536C00510940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFAD6FD29CC9C0F00510940 /* NotificationSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationSample.entitlements; sourceTree = "<group>"; };
+		0AFAD6FE29CC9D2C00510940 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0AFAD70029CC9E1C00510940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		0AFAD6C329CC515A00510940 = {
 			isa = PBXGroup;
 			children = (
+				0AFAD6FE29CC9D2C00510940 /* GoogleService-Info.plist */,
 				0AFAD6E229CC530800510940 /* GoPushApp.xcframework */,
 				0AFAD6E329CC530800510940 /* GoPushCore.xcframework */,
 				0AFAD6E429CC530900510940 /* GoPushNotifications.xcframework */,
@@ -112,6 +117,8 @@
 		0AFAD6CE29CC515A00510940 /* NotificationSample */ = {
 			isa = PBXGroup;
 			children = (
+				0AFAD70029CC9E1C00510940 /* Info.plist */,
+				0AFAD6FD29CC9C0F00510940 /* NotificationSample.entitlements */,
 				0AFAD6CF29CC515A00510940 /* NotificationSampleApp.swift */,
 				0AFAD6D129CC515A00510940 /* ContentView.swift */,
 				0AFAD6D329CC515C00510940 /* Assets.xcassets */,
@@ -237,6 +244,7 @@
 			files = (
 				0AFAD6D729CC515C00510940 /* Preview Assets.xcassets in Resources */,
 				0AFAD6D429CC515C00510940 /* Assets.xcassets in Resources */,
+				0AFAD6FF29CC9D2C00510940 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,12 +406,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotificationSample/NotificationSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NotificationSample/Preview Content\"";
 				DEVELOPMENT_TEAM = F8CW5H3479;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,12 +438,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NotificationSample/NotificationSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NotificationSample/Preview Content\"";
 				DEVELOPMENT_TEAM = F8CW5H3479;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

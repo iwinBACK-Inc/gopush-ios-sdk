@@ -6,7 +6,11 @@
 
 3. Add Notification Service Extension target and link it with `FirebaseMessaging`, [GoPushCore.xcframework](bin/GoPushCore.xcframework), [GoPushNotifications.xcframework](bin/GoPushNotifications.xcframework).
 
-4. Initialize SDK
+4. Enable Push Notifications capability
+
+Select your application target and navigate to **Singning & Capabilities** tab. Add **Push Notifications** and **Background Modes -> Remote notifications** capabilities.
+
+5. Initialize SDK
 
 ```swift
 FirebaseApp.configure()
@@ -18,13 +22,13 @@ GoPush.go(config: config, launchOptions: launchOptions)
 GoPush.requestNotificationPermission()
 ```
 
-5. Add following code to your Notification Service Extension `UNNotificationServiceExtension.didReceive(_:withContentHandler:)` method:
+6. Add following code to your Notification Service Extension `UNNotificationServiceExtension.didReceive(_:withContentHandler:)` method:
 
 ```swift
 RemoteNotificationCenter.handler().didReceiveNotificationRequest(request)
 ```
 
-6. Add `-ObjC` flag in **Build Settings -> Other Linker Flags**. GoPush uses Objective C runtime to automatically swizzle AppDelegate methods. This flag is not needed if you use manual integration.
+7. Add `-ObjC` flag in **Build Settings -> Other Linker Flags**. GoPush uses Objective C runtime to automatically swizzle AppDelegate methods. This flag is not needed if you use manual integration.
 
 
 # Manual integration

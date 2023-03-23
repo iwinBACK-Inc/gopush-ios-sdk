@@ -1,0 +1,36 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GoPushMessaging
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import GoPushCore
+@_exported import GoPushMessaging
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc(GPInAppMessaging) public class InAppMessaging : ObjectiveC.NSObject {
+  @objc public func go()
+  @objc public static func messaging() -> GoPushMessaging.InAppMessaging
+  @objc public var delegate: GoPushMessaging.InAppMessagingDelegate? {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(GPInAppMessage) public class InAppMessage : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(GPInAppMessageEvent) public class InAppMessageEvent : ObjectiveC.NSObject {
+  @objc final public let name: Swift.String
+  @objc final public let data: Any?
+  @objc deinit
+}
+@objc(GPInAppMessagingDelegate) public protocol InAppMessagingDelegate {
+  @objc(messaging:willPresent:) optional func messaging(_ messaging: GoPushMessaging.InAppMessaging, willPresent message: GoPushMessaging.InAppMessage)
+  @objc(messaging:didFinishPresenting:) optional func messaging(_ messaging: GoPushMessaging.InAppMessaging, didFinishPresenting message: GoPushMessaging.InAppMessage)
+  @objc(messaging:didReceive:from:) optional func messaging(_ messaging: GoPushMessaging.InAppMessaging, didReceive event: GoPushMessaging.InAppMessageEvent, from message: GoPushMessaging.InAppMessage)
+}

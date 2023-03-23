@@ -1,0 +1,1014 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppMessaging",
+        "printedName": "InAppMessaging",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "go",
+            "printedName": "go()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging(im)go",
+            "mangledName": "$s15GoPushMessaging05InAppC0C2goyyF",
+            "moduleName": "GoPushMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "messaging",
+            "printedName": "messaging()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessaging",
+                "printedName": "GoPushMessaging.InAppMessaging",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging(cm)messaging",
+            "mangledName": "$s15GoPushMessaging05InAppC0C9messagingACyFZ",
+            "moduleName": "GoPushMessaging",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushMessaging.InAppMessagingDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppMessagingDelegate",
+                    "printedName": "GoPushMessaging.InAppMessagingDelegate",
+                    "usr": "c:@M@GoPushMessaging@objc(pl)GPInAppMessagingDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging(py)delegate",
+            "mangledName": "$s15GoPushMessaging05InAppC0C8delegateAA0deC8Delegate_pSgvp",
+            "moduleName": "GoPushMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoPushMessaging.InAppMessagingDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppMessagingDelegate",
+                        "printedName": "GoPushMessaging.InAppMessagingDelegate",
+                        "usr": "c:@M@GoPushMessaging@objc(pl)GPInAppMessagingDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging(im)delegate",
+                "mangledName": "$s15GoPushMessaging05InAppC0C8delegateAA0deC8Delegate_pSgvg",
+                "moduleName": "GoPushMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoPushMessaging.InAppMessagingDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppMessagingDelegate",
+                        "printedName": "GoPushMessaging.InAppMessagingDelegate",
+                        "usr": "c:@M@GoPushMessaging@objc(pl)GPInAppMessagingDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging(im)setDelegate:",
+                "mangledName": "$s15GoPushMessaging05InAppC0C8delegateAA0deC8Delegate_pSgvs",
+                "moduleName": "GoPushMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15GoPushMessaging05InAppC0C8delegateAA0deC8Delegate_pSgvM",
+                "mangledName": "$s15GoPushMessaging05InAppC0C8delegateAA0deC8Delegate_pSgvM",
+                "moduleName": "GoPushMessaging",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessaging",
+                "printedName": "GoPushMessaging.InAppMessaging",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging(im)init",
+            "mangledName": "$s15GoPushMessaging05InAppC0CACycfc",
+            "moduleName": "GoPushMessaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging",
+        "mangledName": "$s15GoPushMessaging05InAppC0C",
+        "moduleName": "GoPushMessaging",
+        "objc_name": "GPInAppMessaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppMessage",
+        "printedName": "InAppMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage(py)id",
+            "mangledName": "$s15GoPushMessaging12InAppMessageC2idSSvp",
+            "moduleName": "GoPushMessaging",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage(im)id",
+                "mangledName": "$s15GoPushMessaging12InAppMessageC2idSSvg",
+                "moduleName": "GoPushMessaging",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessage",
+                "printedName": "GoPushMessaging.InAppMessage",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage(im)init",
+            "mangledName": "$s15GoPushMessaging12InAppMessageCACycfc",
+            "moduleName": "GoPushMessaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage",
+        "mangledName": "$s15GoPushMessaging12InAppMessageC",
+        "moduleName": "GoPushMessaging",
+        "objc_name": "GPInAppMessage",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppMessageEvent",
+        "printedName": "InAppMessageEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent(py)name",
+            "mangledName": "$s15GoPushMessaging17InAppMessageEventC4nameSSvp",
+            "moduleName": "GoPushMessaging",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent(im)name",
+                "mangledName": "$s15GoPushMessaging17InAppMessageEventC4nameSSvg",
+                "moduleName": "GoPushMessaging",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent(py)data",
+            "mangledName": "$s15GoPushMessaging17InAppMessageEventC4dataypSgvp",
+            "moduleName": "GoPushMessaging",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent(im)data",
+                "mangledName": "$s15GoPushMessaging17InAppMessageEventC4dataypSgvg",
+                "moduleName": "GoPushMessaging",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageEvent",
+                "printedName": "GoPushMessaging.InAppMessageEvent",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent(im)init",
+            "mangledName": "$s15GoPushMessaging17InAppMessageEventCACycfc",
+            "moduleName": "GoPushMessaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent",
+        "mangledName": "$s15GoPushMessaging17InAppMessageEventC",
+        "moduleName": "GoPushMessaging",
+        "objc_name": "GPInAppMessageEvent",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppMessagingDelegate",
+        "printedName": "InAppMessagingDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "messaging",
+            "printedName": "messaging(_:willPresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessaging",
+                "printedName": "GoPushMessaging.InAppMessaging",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessage",
+                "printedName": "GoPushMessaging.InAppMessage",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushMessaging@objc(pl)GPInAppMessagingDelegate(im)messaging:willPresent:",
+            "mangledName": "$s15GoPushMessaging05InAppC8DelegateP9messaging_11willPresentyAA0deC0C_AA0dE7MessageCtF",
+            "moduleName": "GoPushMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushMessaging.InAppMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushMessaging.InAppMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "messaging:willPresent:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "messaging",
+            "printedName": "messaging(_:didFinishPresenting:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessaging",
+                "printedName": "GoPushMessaging.InAppMessaging",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessage",
+                "printedName": "GoPushMessaging.InAppMessage",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushMessaging@objc(pl)GPInAppMessagingDelegate(im)messaging:didFinishPresenting:",
+            "mangledName": "$s15GoPushMessaging05InAppC8DelegateP9messaging_19didFinishPresentingyAA0deC0C_AA0dE7MessageCtF",
+            "moduleName": "GoPushMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushMessaging.InAppMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushMessaging.InAppMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "messaging:didFinishPresenting:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "messaging",
+            "printedName": "messaging(_:didReceive:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessaging",
+                "printedName": "GoPushMessaging.InAppMessaging",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessaging"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageEvent",
+                "printedName": "GoPushMessaging.InAppMessageEvent",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessageEvent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessage",
+                "printedName": "GoPushMessaging.InAppMessage",
+                "usr": "c:@M@GoPushMessaging@objc(cs)GPInAppMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushMessaging@objc(pl)GPInAppMessagingDelegate(im)messaging:didReceive:from:",
+            "mangledName": "$s15GoPushMessaging05InAppC8DelegateP9messaging_10didReceive4fromyAA0deC0C_AA0dE12MessageEventCAA0deK0CtF",
+            "moduleName": "GoPushMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushMessaging.InAppMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushMessaging.InAppMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "messaging:didReceive:from:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@GoPushMessaging@objc(pl)GPInAppMessagingDelegate",
+        "mangledName": "$s15GoPushMessaging05InAppC8DelegateP",
+        "moduleName": "GoPushMessaging",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "GPInAppMessagingDelegate",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GoPushMessaging"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/GoPushMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 17,
+      "value": "\"applicationOpen\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/GoPushMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 12,
+      "value": "\"GoPushMessaging.InAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/GoPushMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 17,
+      "value": "\"GoPushMessaging.InAppMessageEvent\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/Api\/SendEventRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessagingEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 17,
+      "value": "\"MessagingEngine\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessagingEngine.swift",
+      "kind": "FloatLiteral",
+      "offset": 323,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessagingEngine.swift",
+      "kind": "Array",
+      "offset": 452,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessagingEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessagingEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3491,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageWindow.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 15,
+      "value": "\"MessageWindow\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageWindow.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 13,
+      "value": "\"GoPushMessaging.MessageWindow\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageWindow.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 13,
+      "value": "\"GoPushMessaging.MessageWindow\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 332,
+      "value": "\"window.GoPush = {\n  closeMessage: function() {\n    window.webkit.messageHandlers.goPushHandler.postMessage({ \"message\": \"closeMessage\" });\n  },\n\n  sendEvent: function (event, data) {\n    window.webkit.messageHandlers.goPushHandler.postMessage({ \"message\": \"sendEvent\", event: event, data: data });\n  }\n};\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 23,
+      "value": "\"MessageViewController\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 15,
+      "value": "\"goPushHandler\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
+      "length": 14,
+      "value": "\"closeMessage\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1229,
+      "length": 11,
+      "value": "\"sendEvent\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushMessaging\/GoPushMessaging\/MessageViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 21,
+      "value": "\"GoPushMessaging.MessageViewController\""
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module GoPushNotifications {
+  header "GoPushNotifications-Swift.h"
+  requires objc
+}

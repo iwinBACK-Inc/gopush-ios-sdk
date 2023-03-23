@@ -1,0 +1,66 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GoPushApp
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import GoPushCore
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc(GPLogLevel) public enum LogLevel : Swift.Int {
+  case none = 1
+  case error
+  case warn
+  case info
+  case debug
+  case verbose
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(GPUser) public class User : ObjectiveC.NSObject {
+  public init(id: Swift.String)
+  @objc public var id: Swift.String
+  @objc public var email: Swift.String?
+  @objc public var phoneNumber: Swift.String?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(GPConfig) public class Config : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public var apiToken: Swift.String
+  @objc public var autoRegister: Swift.Bool
+  @objc public var autoHandleNotifications: Swift.Bool
+  @objc public var logLevel: GoPushApp.LogLevel
+  @objc public var exportDeliveryMetricsToBigQuery: Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class GoPush : ObjectiveC.NSObject {
+  @objc(goWithConfig:launchOptions:) public static func go(config: GoPushApp.Config, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  @objc public static func appDelegate() -> GoPushApp.GoPushAppDelegate
+  @objc public static func messagingDelegate() -> GoPushApp.GoPushMessagingDelegate
+  @objc public static func registerForPushNotifications()
+  @objc(startUserSession:) public static func startUserSession(user: GoPushApp.User)
+  @objc public static func startAnonymousSession()
+  @objc public static func requestNotificationPermission()
+  @objc(setStringTag:forKey:) public static func setTag(_ tag: Swift.String, forKey: Swift.String)
+  @objc(setIntTag:forKey:) public static func setTag(_ tag: Swift.Int, forKey: Swift.String)
+  @objc(removeTagForKey:) public static func removeTag(forKey: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class GoPushAppDelegate : ObjectiveC.NSObject {
+  @objc(application:didRegisterForRemoteNotificationsWithDeviceToken:) public func application(_ application: UIKit.UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Foundation.Data)
+  @objc(application:didFailToRegisterForRemoteNotificationsWithError:) public func application(_ application: UIKit.UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Swift.Error)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class GoPushMessagingDelegate : ObjectiveC.NSObject {
+  @objc(didReceiveRegistrationToken:) public func didReceiveRegistrationToken(_ fcmToken: Swift.String?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension GoPushApp.LogLevel : Swift.Equatable {}
+extension GoPushApp.LogLevel : Swift.Hashable {}
+extension GoPushApp.LogLevel : Swift.RawRepresentable {}

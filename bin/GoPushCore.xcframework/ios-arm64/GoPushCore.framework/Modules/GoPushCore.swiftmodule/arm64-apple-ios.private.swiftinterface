@@ -1,0 +1,163 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GoPushCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum LogLevel : Swift.Int {
+  case none
+  case error
+  case warn
+  case info
+  case debug
+  case verbose
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct Logger {
+  public static var logLevel: GoPushCore.LogLevel
+  public static func error(_ message: Swift.String, component: Swift.String)
+  public static func error(_ message: Swift.String, component: Swift.String, error: Swift.Error)
+  public static func error(_ message: Swift.String, error: Swift.Error)
+  public static func error(error: Swift.Error)
+  public static func warn(_ message: Swift.String, component: Swift.String)
+  public static func warn(_ message: Swift.String, component: Swift.String, error: Swift.Error)
+  public static func warn(_ message: Swift.String, error: Swift.Error)
+  public static func warn(error: Swift.Error)
+  public static func info(_ message: Swift.String, component: Swift.String)
+  public static func info(_ message: Swift.String)
+  public static func debug(_ message: Swift.String, component: Swift.String)
+  public static func debug(_ message: Swift.String)
+  public static func verbose(_ message: Swift.String, component: Swift.String)
+  public static func verbose(_ message: Swift.String)
+}
+public struct DeviceState {
+  public init()
+  public var apnsToken: Swift.String {
+    get
+    set
+  }
+  public var fcmToken: Swift.String {
+    get
+    set
+  }
+  public var deviceId: Swift.String {
+    get
+    set
+  }
+}
+public enum RequestMethod {
+  case get, post, put, patch, delete
+  public static func == (a: GoPushCore.RequestMethod, b: GoPushCore.RequestMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+#if compiler(>=5.3) && $PrimaryAssociatedTypes2
+public protocol GoPushRequest<Response> {
+  associatedtype Response : GoPushCore.GoPushResponse
+  var method: GoPushCore.RequestMethod { get }
+  var url: Swift.String { get }
+  var body: [Swift.String : Any] { get }
+  func parseResponse(responseCode: Swift.Int, data: Swift.String) -> Self.Response
+}
+#else
+public protocol GoPushRequest {
+  associatedtype Response : GoPushCore.GoPushResponse
+  var method: GoPushCore.RequestMethod { get }
+  var url: Swift.String { get }
+  var body: [Swift.String : Any] { get }
+  func parseResponse(responseCode: Swift.Int, data: Swift.String) -> Self.Response
+}
+#endif
+public struct FirebaseMessaging {
+  public init()
+  public func exportDeliveryMetricsToBigQuery(withMessageInfo: [Swift.AnyHashable : Any])
+  public func messaging() -> Swift.AnyObject?
+  public func getToken(completion: @escaping (Swift.Result<Swift.String?, Swift.Error>) -> Swift.Void)
+}
+public protocol GoPushResponse {
+  var statusCode: Swift.Int { get }
+}
+public struct Response {
+}
+public protocol ResponseHandler {
+  func onSuccess(response: GoPushCore.Response)
+  func onError(error: Foundation.NSError)
+}
+public enum HttpError : Swift.Error {
+  case invalidUrl(Swift.String)
+  case noResponse(Swift.String)
+  case clientError(Swift.String)
+}
+public struct HttpRequestOptions {
+}
+public protocol HttpClient {
+  func get(url: Swift.String, options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  func post(url: Swift.String, body: [Swift.String : Any], options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  func put(url: Swift.String, body: [Swift.String : Any], options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  func patch(url: Swift.String, body: [Swift.String : Any], options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  func delete(url: Swift.String, options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+}
+public struct RuntimeUtils {
+  public static func swizzle(target: Swift.AnyClass, originalSelector: ObjectiveC.Selector, swizzledSelector: ObjectiveC.Selector, implementation: ObjectiveC.IMP, typeEncoding: Swift.UnsafePointer<Swift.CChar>?)
+  public static func replaceImplementation(target: Swift.AnyClass, originalSelector: ObjectiveC.Selector, swizzledMethod: ObjectiveC.Method) -> ObjectiveC.IMP?
+}
+public struct ConfigurationState {
+  public init()
+  public var apiKey: Swift.String {
+    get
+    set
+  }
+  public var logLevel: GoPushCore.LogLevel {
+    get
+    set
+  }
+  public var exportDeliveryMetricsToBigQuery: Swift.Bool {
+    get
+    set
+  }
+  public var autoRegister: Swift.Bool {
+    get
+    set
+  }
+  public var autoHandleNotifications: Swift.Bool {
+    get
+    set
+  }
+  public var swizzleAppDelegate: Swift.Bool {
+    get
+  }
+}
+public class GoPushClient {
+  public static let baseUrl: Swift.String
+  public init(httpClient: GoPushCore.HttpClient, deviceState: GoPushCore.DeviceState)
+  public var apiToken: Swift.String {
+    get
+    set
+  }
+  public func sendRequest<T>(request: any GoPushCore.GoPushRequest<T>) where T : GoPushCore.GoPushResponse
+  public func sendRequest<T>(request: any GoPushCore.GoPushRequest<T>, handler: ((Swift.Result<T, GoPushCore.HttpError>) -> Swift.Void)?) where T : GoPushCore.GoPushResponse
+  @objc deinit
+}
+public class UrlSessionClient : GoPushCore.HttpClient {
+  public init()
+  public func get(url: Swift.String, options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  public func post(url: Swift.String, body: [Swift.String : Any], options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  public func put(url: Swift.String, body: [Swift.String : Any], options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  public func patch(url: Swift.String, body: [Swift.String : Any], options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  public func delete(url: Swift.String, options: GoPushCore.HttpRequestOptions?, completion: @escaping (Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> Swift.Void)
+  @objc deinit
+}
+extension GoPushCore.LogLevel : Swift.Equatable {}
+extension GoPushCore.LogLevel : Swift.Hashable {}
+extension GoPushCore.LogLevel : Swift.RawRepresentable {}
+extension GoPushCore.RequestMethod : Swift.Equatable {}
+extension GoPushCore.RequestMethod : Swift.Hashable {}

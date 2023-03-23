@@ -1,0 +1,11 @@
+framework module GoPushMessaging {
+  umbrella header "GoPushMessaging.h"
+
+  export *
+  module * { export * }
+}
+
+module GoPushMessaging.Swift {
+  header "GoPushMessaging-Swift.h"
+  requires objc
+}

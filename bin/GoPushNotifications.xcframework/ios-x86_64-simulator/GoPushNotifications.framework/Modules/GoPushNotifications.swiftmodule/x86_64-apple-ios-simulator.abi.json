@@ -1,0 +1,1079 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteNotificationCenter",
+        "printedName": "RemoteNotificationCenter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handler",
+            "printedName": "handler()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationHandler",
+                "printedName": "GoPushNotifications.RemoteNotificationHandler",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter(cm)handler",
+            "mangledName": "$s19GoPushNotifications24RemoteNotificationCenterC7handlerAA0dE7HandlerCyFZ",
+            "moduleName": "GoPushNotifications",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shared",
+            "printedName": "shared()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationCenter",
+                "printedName": "GoPushNotifications.RemoteNotificationCenter",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter(cm)shared",
+            "mangledName": "$s19GoPushNotifications24RemoteNotificationCenterC6sharedACyFZ",
+            "moduleName": "GoPushNotifications",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "GoPushNotifications.RemoteNotificationCenterDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter(py)delegate",
+            "mangledName": "$s19GoPushNotifications24RemoteNotificationCenterC8delegateAA0deF8Delegate_pSgvp",
+            "moduleName": "GoPushNotifications",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoPushNotifications.RemoteNotificationCenterDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RemoteNotificationCenterDelegate",
+                        "printedName": "GoPushNotifications.RemoteNotificationCenterDelegate",
+                        "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter(im)delegate",
+                "mangledName": "$s19GoPushNotifications24RemoteNotificationCenterC8delegateAA0deF8Delegate_pSgvg",
+                "moduleName": "GoPushNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GoPushNotifications.RemoteNotificationCenterDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RemoteNotificationCenterDelegate",
+                        "printedName": "GoPushNotifications.RemoteNotificationCenterDelegate",
+                        "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter(im)setDelegate:",
+                "mangledName": "$s19GoPushNotifications24RemoteNotificationCenterC8delegateAA0deF8Delegate_pSgvs",
+                "moduleName": "GoPushNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19GoPushNotifications24RemoteNotificationCenterC8delegateAA0deF8Delegate_pSgvM",
+                "mangledName": "$s19GoPushNotifications24RemoteNotificationCenterC8delegateAA0deF8Delegate_pSgvM",
+                "moduleName": "GoPushNotifications",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter",
+        "mangledName": "$s19GoPushNotifications24RemoteNotificationCenterC",
+        "moduleName": "GoPushNotifications",
+        "objc_name": "GPRemoteNotificationCenter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteNotification",
+        "printedName": "RemoteNotification",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(py)data",
+            "mangledName": "$s19GoPushNotifications18RemoteNotificationC4dataSDySSypGvp",
+            "moduleName": "GoPushNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(im)data",
+                "mangledName": "$s19GoPushNotifications18RemoteNotificationC4dataSDySSypGvg",
+                "moduleName": "GoPushNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "link",
+            "printedName": "link",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(py)link",
+            "mangledName": "$s19GoPushNotifications18RemoteNotificationC4link10Foundation3URLVSgvp",
+            "moduleName": "GoPushNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(im)link",
+                "mangledName": "$s19GoPushNotifications18RemoteNotificationC4link10Foundation3URLVSgvg",
+                "moduleName": "GoPushNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotification",
+                "printedName": "GoPushNotifications.RemoteNotification",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(im)init",
+            "mangledName": "$s19GoPushNotifications18RemoteNotificationCACycfc",
+            "moduleName": "GoPushNotifications",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification",
+        "mangledName": "$s19GoPushNotifications18RemoteNotificationC",
+        "moduleName": "GoPushNotifications",
+        "objc_name": "GPRemoteNotification",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteNotificationHandler",
+        "printedName": "RemoteNotificationHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didReceiveRemoteNotification",
+            "printedName": "didReceiveRemoteNotification(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler(im)didReceiveRemoteNotification:",
+            "mangledName": "$s19GoPushNotifications25RemoteNotificationHandlerC010didReceivedE0yySDys11AnyHashableVypGF",
+            "moduleName": "GoPushNotifications",
+            "objc_name": "didReceiveRemoteNotification:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveNotificationRequest",
+            "printedName": "didReceiveNotificationRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler(im)didReceiveNotificationRequest:",
+            "mangledName": "$s19GoPushNotifications25RemoteNotificationHandlerC010didReceiveE7RequestyySo014UNNotificationI0CF",
+            "moduleName": "GoPushNotifications",
+            "objc_name": "didReceiveNotificationRequest:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willPresentNotification",
+            "printedName": "willPresentNotification(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler(im)willPresentNotification:",
+            "mangledName": "$s19GoPushNotifications25RemoteNotificationHandlerC011willPresentE0yySo14UNNotificationCF",
+            "moduleName": "GoPushNotifications",
+            "objc_name": "willPresentNotification:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveNotificationResponse",
+            "printedName": "didReceiveNotificationResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler(im)didRecieveNotificationResponse:",
+            "mangledName": "$s19GoPushNotifications25RemoteNotificationHandlerC010didReceiveE8ResponseyySo014UNNotificationI0CF",
+            "moduleName": "GoPushNotifications",
+            "objc_name": "didRecieveNotificationResponse:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationHandler",
+                "printedName": "GoPushNotifications.RemoteNotificationHandler",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler(im)init",
+            "mangledName": "$s19GoPushNotifications25RemoteNotificationHandlerCACycfc",
+            "moduleName": "GoPushNotifications",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationHandler",
+        "mangledName": "$s19GoPushNotifications25RemoteNotificationHandlerC",
+        "moduleName": "GoPushNotifications",
+        "objc_name": "GPRemoteNotificationHandler",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteNotificationCenterDelegate",
+        "printedName": "RemoteNotificationCenterDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "remoteNotificationCenter",
+            "printedName": "remoteNotificationCenter(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationCenter",
+                "printedName": "GoPushNotifications.RemoteNotificationCenter",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotification",
+                "printedName": "GoPushNotifications.RemoteNotification",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate(im)remoteNotificationCenter:didReceive:",
+            "mangledName": "$s19GoPushNotifications32RemoteNotificationCenterDelegateP06remoteeF0_10didReceiveyAA0deF0C_AA0dE0CtF",
+            "moduleName": "GoPushNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "protocolReq": true,
+            "objc_name": "remoteNotificationCenter:didReceive:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remoteNotificationCenter",
+            "printedName": "remoteNotificationCenter(_:willPresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationCenter",
+                "printedName": "GoPushNotifications.RemoteNotificationCenter",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotification",
+                "printedName": "GoPushNotifications.RemoteNotification",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate(im)remoteNotificationCenter:willPresent:",
+            "mangledName": "$s19GoPushNotifications32RemoteNotificationCenterDelegateP06remoteeF0_11willPresentyAA0deF0C_AA0dE0CtF",
+            "moduleName": "GoPushNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "protocolReq": true,
+            "objc_name": "remoteNotificationCenter:willPresent:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remoteNotificationCenter",
+            "printedName": "remoteNotificationCenter(_:didOpen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationCenter",
+                "printedName": "GoPushNotifications.RemoteNotificationCenter",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotification",
+                "printedName": "GoPushNotifications.RemoteNotification",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate(im)remoteNotificationCenter:didOpen:",
+            "mangledName": "$s19GoPushNotifications32RemoteNotificationCenterDelegateP06remoteeF0_7didOpenyAA0deF0C_AA0dE0CtF",
+            "moduleName": "GoPushNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "protocolReq": true,
+            "objc_name": "remoteNotificationCenter:didOpen:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remoteNotificationCenter",
+            "printedName": "remoteNotificationCenter(_:didDismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationCenter",
+                "printedName": "GoPushNotifications.RemoteNotificationCenter",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotification",
+                "printedName": "GoPushNotifications.RemoteNotification",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate(im)remoteNotificationCenter:didDismiss:",
+            "mangledName": "$s19GoPushNotifications32RemoteNotificationCenterDelegateP06remoteeF0_10didDismissyAA0deF0C_AA0dE0CtF",
+            "moduleName": "GoPushNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "protocolReq": true,
+            "objc_name": "remoteNotificationCenter:didDismiss:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remoteNotificationCenter",
+            "printedName": "remoteNotificationCenter(_:didOpen:action:category:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotificationCenter",
+                "printedName": "GoPushNotifications.RemoteNotificationCenter",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteNotification",
+                "printedName": "GoPushNotifications.RemoteNotification",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate(im)remoteNotificationCenter:didOpen:action:category:",
+            "mangledName": "$s19GoPushNotifications32RemoteNotificationCenterDelegateP06remoteeF0_7didOpen6action8categoryyAA0deF0C_AA0dE0CS2StF",
+            "moduleName": "GoPushNotifications",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "sugared_genericSig": "<Self where Self : GoPushNotifications.RemoteNotificationCenterDelegate>",
+            "protocolReq": true,
+            "objc_name": "remoteNotificationCenter:didOpen:action:category:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@GoPushNotifications@objc(pl)GPRemoteNotificationCenterDelegate",
+        "mangledName": "$s19GoPushNotifications32RemoteNotificationCenterDelegateP",
+        "moduleName": "GoPushNotifications",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "GPRemoteNotificationCenterDelegate",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/ApplicationProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 30,
+      "value": "\"GoPushApp.ApplicationWrapper\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/ApplicationProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 13,
+      "value": "\"canOpenUrl:\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/ApplicationProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 10,
+      "value": "\"openUrl:\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/RunitmeUNCenterDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 3487,
+      "length": 14,
+      "value": "\"setDelegate:\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 18,
+      "value": "\"GoPushNotifications.RemoteNotification\""
+    }
+  ]
+}

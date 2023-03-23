@@ -1,0 +1,4341 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.LogLevel.Type) -> GoPushCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GoPushCore.LogLevel",
+                        "usr": "s:10GoPushCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore8LogLevelO4noneyA2CmF",
+            "mangledName": "$s10GoPushCore8LogLevelO4noneyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.LogLevel.Type) -> GoPushCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GoPushCore.LogLevel",
+                        "usr": "s:10GoPushCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore8LogLevelO5erroryA2CmF",
+            "mangledName": "$s10GoPushCore8LogLevelO5erroryA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.LogLevel.Type) -> GoPushCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GoPushCore.LogLevel",
+                        "usr": "s:10GoPushCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore8LogLevelO4warnyA2CmF",
+            "mangledName": "$s10GoPushCore8LogLevelO4warnyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.LogLevel.Type) -> GoPushCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GoPushCore.LogLevel",
+                        "usr": "s:10GoPushCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore8LogLevelO4infoyA2CmF",
+            "mangledName": "$s10GoPushCore8LogLevelO4infoyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.LogLevel.Type) -> GoPushCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GoPushCore.LogLevel",
+                        "usr": "s:10GoPushCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore8LogLevelO5debugyA2CmF",
+            "mangledName": "$s10GoPushCore8LogLevelO5debugyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.LogLevel.Type) -> GoPushCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "GoPushCore.LogLevel",
+                        "usr": "s:10GoPushCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore8LogLevelO7verboseyA2CmF",
+            "mangledName": "$s10GoPushCore8LogLevelO7verboseyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10GoPushCore8LogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10GoPushCore8LogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "GoPushCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore8LogLevelO8rawValueSivp",
+            "mangledName": "$s10GoPushCore8LogLevelO8rawValueSivp",
+            "moduleName": "GoPushCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore8LogLevelO8rawValueSivg",
+                "mangledName": "$s10GoPushCore8LogLevelO8rawValueSivg",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10GoPushCore8LogLevelO",
+        "mangledName": "$s10GoPushCore8LogLevelO",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "GoPushCore.LogLevel",
+                "usr": "s:10GoPushCore8LogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore6LoggerV8logLevelAA03LogF0OvpZ",
+            "mangledName": "$s10GoPushCore6LoggerV8logLevelAA03LogF0OvpZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore6LoggerV8logLevelAA03LogF0OvgZ",
+                "mangledName": "$s10GoPushCore6LoggerV8logLevelAA03LogF0OvgZ",
+                "moduleName": "GoPushCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore6LoggerV8logLevelAA03LogF0OvsZ",
+                "mangledName": "$s10GoPushCore6LoggerV8logLevelAA03LogF0OvsZ",
+                "moduleName": "GoPushCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore6LoggerV8logLevelAA03LogF0OvMZ",
+                "mangledName": "$s10GoPushCore6LoggerV8logLevelAA03LogF0OvMZ",
+                "moduleName": "GoPushCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:component:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV5error_9componentySS_SStFZ",
+            "mangledName": "$s10GoPushCore6LoggerV5error_9componentySS_SStFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:component:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV5error_9componentADySS_SSs5Error_ptFZ",
+            "mangledName": "$s10GoPushCore6LoggerV5error_9componentADySS_SSs5Error_ptFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV5error_ADySS_s5Error_ptFZ",
+            "mangledName": "$s10GoPushCore6LoggerV5error_ADySS_s5Error_ptFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV5errorADys5Error_p_tFZ",
+            "mangledName": "$s10GoPushCore6LoggerV5errorADys5Error_p_tFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(_:component:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV4warn_9componentySS_SStFZ",
+            "mangledName": "$s10GoPushCore6LoggerV4warn_9componentySS_SStFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(_:component:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV4warn_9component5errorySS_SSs5Error_ptFZ",
+            "mangledName": "$s10GoPushCore6LoggerV4warn_9component5errorySS_SSs5Error_ptFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV4warn_5errorySS_s5Error_ptFZ",
+            "mangledName": "$s10GoPushCore6LoggerV4warn_5errorySS_s5Error_ptFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV4warn5errorys5Error_p_tFZ",
+            "mangledName": "$s10GoPushCore6LoggerV4warn5errorys5Error_p_tFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:component:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV4info_9componentySS_SStFZ",
+            "mangledName": "$s10GoPushCore6LoggerV4info_9componentySS_SStFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV4infoyySSFZ",
+            "mangledName": "$s10GoPushCore6LoggerV4infoyySSFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:component:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV5debug_9componentySS_SStFZ",
+            "mangledName": "$s10GoPushCore6LoggerV5debug_9componentySS_SStFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV5debugyySSFZ",
+            "mangledName": "$s10GoPushCore6LoggerV5debugyySSFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verbose",
+            "printedName": "verbose(_:component:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV7verbose_9componentySS_SStFZ",
+            "mangledName": "$s10GoPushCore6LoggerV7verbose_9componentySS_SStFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verbose",
+            "printedName": "verbose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore6LoggerV7verboseyySSFZ",
+            "mangledName": "$s10GoPushCore6LoggerV7verboseyySSFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10GoPushCore6LoggerV",
+        "mangledName": "$s10GoPushCore6LoggerV",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceState",
+        "printedName": "DeviceState",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceState",
+                "printedName": "GoPushCore.DeviceState",
+                "usr": "s:10GoPushCore11DeviceStateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10GoPushCore11DeviceStateVACycfc",
+            "mangledName": "$s10GoPushCore11DeviceStateVACycfc",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "apnsToken",
+            "printedName": "apnsToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore11DeviceStateV9apnsTokenSSvp",
+            "mangledName": "$s10GoPushCore11DeviceStateV9apnsTokenSSvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV9apnsTokenSSvg",
+                "mangledName": "$s10GoPushCore11DeviceStateV9apnsTokenSSvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV9apnsTokenSSvs",
+                "mangledName": "$s10GoPushCore11DeviceStateV9apnsTokenSSvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV9apnsTokenSSvM",
+                "mangledName": "$s10GoPushCore11DeviceStateV9apnsTokenSSvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fcmToken",
+            "printedName": "fcmToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore11DeviceStateV8fcmTokenSSvp",
+            "mangledName": "$s10GoPushCore11DeviceStateV8fcmTokenSSvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV8fcmTokenSSvg",
+                "mangledName": "$s10GoPushCore11DeviceStateV8fcmTokenSSvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV8fcmTokenSSvs",
+                "mangledName": "$s10GoPushCore11DeviceStateV8fcmTokenSSvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV8fcmTokenSSvM",
+                "mangledName": "$s10GoPushCore11DeviceStateV8fcmTokenSSvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore11DeviceStateV8deviceIdSSvp",
+            "mangledName": "$s10GoPushCore11DeviceStateV8deviceIdSSvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV8deviceIdSSvg",
+                "mangledName": "$s10GoPushCore11DeviceStateV8deviceIdSSvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV8deviceIdSSvs",
+                "mangledName": "$s10GoPushCore11DeviceStateV8deviceIdSSvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore11DeviceStateV8deviceIdSSvM",
+                "mangledName": "$s10GoPushCore11DeviceStateV8deviceIdSSvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10GoPushCore11DeviceStateV",
+        "mangledName": "$s10GoPushCore11DeviceStateV",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestMethod",
+        "printedName": "RequestMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.RequestMethod.Type) -> GoPushCore.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "GoPushCore.RequestMethod",
+                    "usr": "s:10GoPushCore13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "GoPushCore.RequestMethod",
+                        "usr": "s:10GoPushCore13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore13RequestMethodO3getyA2CmF",
+            "mangledName": "$s10GoPushCore13RequestMethodO3getyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.RequestMethod.Type) -> GoPushCore.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "GoPushCore.RequestMethod",
+                    "usr": "s:10GoPushCore13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "GoPushCore.RequestMethod",
+                        "usr": "s:10GoPushCore13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore13RequestMethodO4postyA2CmF",
+            "mangledName": "$s10GoPushCore13RequestMethodO4postyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.RequestMethod.Type) -> GoPushCore.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "GoPushCore.RequestMethod",
+                    "usr": "s:10GoPushCore13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "GoPushCore.RequestMethod",
+                        "usr": "s:10GoPushCore13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore13RequestMethodO3putyA2CmF",
+            "mangledName": "$s10GoPushCore13RequestMethodO3putyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.RequestMethod.Type) -> GoPushCore.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "GoPushCore.RequestMethod",
+                    "usr": "s:10GoPushCore13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "GoPushCore.RequestMethod",
+                        "usr": "s:10GoPushCore13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore13RequestMethodO5patchyA2CmF",
+            "mangledName": "$s10GoPushCore13RequestMethodO5patchyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.RequestMethod.Type) -> GoPushCore.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "GoPushCore.RequestMethod",
+                    "usr": "s:10GoPushCore13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "GoPushCore.RequestMethod",
+                        "usr": "s:10GoPushCore13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore13RequestMethodO6deleteyA2CmF",
+            "mangledName": "$s10GoPushCore13RequestMethodO6deleteyA2CmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RequestMethod",
+                "printedName": "GoPushCore.RequestMethod",
+                "usr": "s:10GoPushCore13RequestMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RequestMethod",
+                "printedName": "GoPushCore.RequestMethod",
+                "usr": "s:10GoPushCore13RequestMethodO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore13RequestMethodO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10GoPushCore13RequestMethodO2eeoiySbAC_ACtFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore13RequestMethodO9hashValueSivp",
+            "mangledName": "$s10GoPushCore13RequestMethodO9hashValueSivp",
+            "moduleName": "GoPushCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore13RequestMethodO9hashValueSivg",
+                "mangledName": "$s10GoPushCore13RequestMethodO9hashValueSivg",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore13RequestMethodO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10GoPushCore13RequestMethodO4hash4intoys6HasherVz_tF",
+            "moduleName": "GoPushCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10GoPushCore13RequestMethodO",
+        "mangledName": "$s10GoPushCore13RequestMethodO",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoPushRequest",
+        "printedName": "GoPushRequest",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Response",
+            "printedName": "Response",
+            "declKind": "AssociatedType",
+            "usr": "s:10GoPushCore0aB7RequestP8ResponseQa",
+            "mangledName": "$s10GoPushCore0aB7RequestP8ResponseQa",
+            "moduleName": "GoPushCore",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestMethod",
+                "printedName": "GoPushCore.RequestMethod",
+                "usr": "s:10GoPushCore13RequestMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore0aB7RequestP6methodAA0D6MethodOvp",
+            "mangledName": "$s10GoPushCore0aB7RequestP6methodAA0D6MethodOvp",
+            "moduleName": "GoPushCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "GoPushCore.RequestMethod",
+                    "usr": "s:10GoPushCore13RequestMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB7RequestP6methodAA0D6MethodOvg",
+                "mangledName": "$s10GoPushCore0aB7RequestP6methodAA0D6MethodOvg",
+                "moduleName": "GoPushCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.GoPushRequest>",
+                "sugared_genericSig": "<Self where Self : GoPushCore.GoPushRequest>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore0aB7RequestP3urlSSvp",
+            "mangledName": "$s10GoPushCore0aB7RequestP3urlSSvp",
+            "moduleName": "GoPushCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB7RequestP3urlSSvg",
+                "mangledName": "$s10GoPushCore0aB7RequestP3urlSSvg",
+                "moduleName": "GoPushCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.GoPushRequest>",
+                "sugared_genericSig": "<Self where Self : GoPushCore.GoPushRequest>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore0aB7RequestP4bodySDySSypGvp",
+            "mangledName": "$s10GoPushCore0aB7RequestP4bodySDySSypGvp",
+            "moduleName": "GoPushCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB7RequestP4bodySDySSypGvg",
+                "mangledName": "$s10GoPushCore0aB7RequestP4bodySDySSypGvg",
+                "moduleName": "GoPushCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.GoPushRequest>",
+                "sugared_genericSig": "<Self where Self : GoPushCore.GoPushRequest>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "parseResponse",
+            "printedName": "parseResponse(responseCode:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Response"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore0aB7RequestP13parseResponse12responseCode4data0F0QzSi_SStF",
+            "mangledName": "$s10GoPushCore0aB7RequestP13parseResponse12responseCode4data0F0QzSi_SStF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.GoPushRequest>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.GoPushRequest>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10GoPushCore0aB7RequestP",
+        "mangledName": "$s10GoPushCore0aB7RequestP",
+        "moduleName": "GoPushCore",
+        "genericSig": "<τ_0_0.Response : GoPushCore.GoPushResponse>",
+        "sugared_genericSig": "<Self.Response : GoPushCore.GoPushResponse>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FirebaseMessaging",
+        "printedName": "FirebaseMessaging",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FirebaseMessaging",
+                "printedName": "GoPushCore.FirebaseMessaging",
+                "usr": "s:10GoPushCore17FirebaseMessagingV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10GoPushCore17FirebaseMessagingVACycfc",
+            "mangledName": "$s10GoPushCore17FirebaseMessagingVACycfc",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "exportDeliveryMetricsToBigQuery",
+            "printedName": "exportDeliveryMetricsToBigQuery(withMessageInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore17FirebaseMessagingV31exportDeliveryMetricsToBigQuery15withMessageInfoySDys11AnyHashableVypG_tF",
+            "mangledName": "$s10GoPushCore17FirebaseMessagingV31exportDeliveryMetricsToBigQuery15withMessageInfoySDys11AnyHashableVypG_tF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "messaging",
+            "printedName": "messaging()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore17FirebaseMessagingV9messagingyXlSgyF",
+            "mangledName": "$s10GoPushCore17FirebaseMessagingV9messagingyXlSgyF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getToken",
+            "printedName": "getToken(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String?, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String?, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore17FirebaseMessagingV8getToken10completionyys6ResultOySSSgs5Error_pGc_tF",
+            "mangledName": "$s10GoPushCore17FirebaseMessagingV8getToken10completionyys6ResultOySSSgs5Error_pGc_tF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10GoPushCore17FirebaseMessagingV",
+        "mangledName": "$s10GoPushCore17FirebaseMessagingV",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoPushResponse",
+        "printedName": "GoPushResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore0aB8ResponseP10statusCodeSivp",
+            "mangledName": "$s10GoPushCore0aB8ResponseP10statusCodeSivp",
+            "moduleName": "GoPushCore",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB8ResponseP10statusCodeSivg",
+                "mangledName": "$s10GoPushCore0aB8ResponseP10statusCodeSivg",
+                "moduleName": "GoPushCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.GoPushResponse>",
+                "sugared_genericSig": "<Self where Self : GoPushCore.GoPushResponse>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10GoPushCore0aB8ResponseP",
+        "mangledName": "$s10GoPushCore0aB8ResponseP",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Response",
+        "printedName": "Response",
+        "declKind": "Struct",
+        "usr": "s:10GoPushCore8ResponseV",
+        "mangledName": "$s10GoPushCore8ResponseV",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResponseHandler",
+        "printedName": "ResponseHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "GoPushCore.Response",
+                "usr": "s:10GoPushCore8ResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore15ResponseHandlerP9onSuccess8responseyAA0D0V_tF",
+            "mangledName": "$s10GoPushCore15ResponseHandlerP9onSuccess8responseyAA0D0V_tF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.ResponseHandler>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.ResponseHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore15ResponseHandlerP7onError5errorySo7NSErrorC_tF",
+            "mangledName": "$s10GoPushCore15ResponseHandlerP7onError5errorySo7NSErrorC_tF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.ResponseHandler>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.ResponseHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10GoPushCore15ResponseHandlerP",
+        "mangledName": "$s10GoPushCore15ResponseHandlerP",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpError",
+        "printedName": "HttpError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidUrl",
+            "printedName": "invalidUrl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.HttpError.Type) -> (Swift.String) -> GoPushCore.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> GoPushCore.HttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore9HttpErrorO10invalidUrlyACSScACmF",
+            "mangledName": "$s10GoPushCore9HttpErrorO10invalidUrlyACSScACmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "noResponse",
+            "printedName": "noResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.HttpError.Type) -> (Swift.String) -> GoPushCore.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> GoPushCore.HttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore9HttpErrorO10noResponseyACSScACmF",
+            "mangledName": "$s10GoPushCore9HttpErrorO10noResponseyACSScACmF",
+            "moduleName": "GoPushCore"
+          },
+          {
+            "kind": "Var",
+            "name": "clientError",
+            "printedName": "clientError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GoPushCore.HttpError.Type) -> (Swift.String) -> GoPushCore.HttpError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> GoPushCore.HttpError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GoPushCore.HttpError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10GoPushCore9HttpErrorO06clientE0yACSScACmF",
+            "mangledName": "$s10GoPushCore9HttpErrorO06clientE0yACSScACmF",
+            "moduleName": "GoPushCore"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10GoPushCore9HttpErrorO",
+        "mangledName": "$s10GoPushCore9HttpErrorO",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpRequestOptions",
+        "printedName": "HttpRequestOptions",
+        "declKind": "Struct",
+        "usr": "s:10GoPushCore18HttpRequestOptionsV",
+        "mangledName": "$s10GoPushCore18HttpRequestOptionsV",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpClient",
+        "printedName": "HttpClient",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(url:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore10HttpClientP3get3url7options10completionySS_AA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "mangledName": "$s10GoPushCore10HttpClientP3get3url7options10completionySS_AA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.HttpClient>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.HttpClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(url:body:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore10HttpClientP4post3url4body7options10completionySS_SDySSypGAA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "mangledName": "$s10GoPushCore10HttpClientP4post3url4body7options10completionySS_SDySSypGAA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.HttpClient>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.HttpClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "put",
+            "printedName": "put(url:body:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore10HttpClientP3put3url4body7options10completionySS_SDySSypGAA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "mangledName": "$s10GoPushCore10HttpClientP3put3url4body7options10completionySS_SDySSypGAA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.HttpClient>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.HttpClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "patch",
+            "printedName": "patch(url:body:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore10HttpClientP5patch3url4body7options10completionySS_SDySSypGAA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "mangledName": "$s10GoPushCore10HttpClientP5patch3url4body7options10completionySS_SDySSypGAA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.HttpClient>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.HttpClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(url:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore10HttpClientP6delete3url7options10completionySS_AA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "mangledName": "$s10GoPushCore10HttpClientP6delete3url7options10completionySS_AA0D14RequestOptionsVSgys6ResultOyAA8ResponseVAA0D5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.HttpClient>",
+            "sugared_genericSig": "<Self where Self : GoPushCore.HttpClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10GoPushCore10HttpClientP",
+        "mangledName": "$s10GoPushCore10HttpClientP",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RuntimeUtils",
+        "printedName": "RuntimeUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "swizzle",
+            "printedName": "swizzle(target:originalSelector:swizzledSelector:implementation:typeEncoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpaquePointer",
+                "printedName": "Swift.OpaquePointer",
+                "usr": "s:s13OpaquePointerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafePointer",
+                    "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:SP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore12RuntimeUtilsV7swizzle6target16originalSelector08swizzledI014implementation12typeEncodingyyXlXp_10ObjectiveC0I0VALs13OpaquePointerVSPys4Int8VGSgtFZ",
+            "mangledName": "$s10GoPushCore12RuntimeUtilsV7swizzle6target16originalSelector08swizzledI014implementation12typeEncodingyyXlXp_10ObjectiveC0I0VALs13OpaquePointerVSPys4Int8VGSgtFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "replaceImplementation",
+            "printedName": "replaceImplementation(target:originalSelector:swizzledMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpaquePointer",
+                "printedName": "Swift.OpaquePointer",
+                "usr": "s:s13OpaquePointerV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore12RuntimeUtilsV21replaceImplementation6target16originalSelector14swizzledMethods13OpaquePointerVSgyXlXp_10ObjectiveC0J0VAItFZ",
+            "mangledName": "$s10GoPushCore12RuntimeUtilsV21replaceImplementation6target16originalSelector14swizzledMethods13OpaquePointerVSgyXlXp_10ObjectiveC0J0VAItFZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10GoPushCore12RuntimeUtilsV",
+        "mangledName": "$s10GoPushCore12RuntimeUtilsV",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurationState",
+        "printedName": "ConfigurationState",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigurationState",
+                "printedName": "GoPushCore.ConfigurationState",
+                "usr": "s:10GoPushCore18ConfigurationStateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10GoPushCore18ConfigurationStateVACycfc",
+            "mangledName": "$s10GoPushCore18ConfigurationStateVACycfc",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore18ConfigurationStateV6apiKeySSvp",
+            "mangledName": "$s10GoPushCore18ConfigurationStateV6apiKeySSvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV6apiKeySSvg",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV6apiKeySSvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV6apiKeySSvs",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV6apiKeySSvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV6apiKeySSvM",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV6apiKeySSvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "GoPushCore.LogLevel",
+                "usr": "s:10GoPushCore8LogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore18ConfigurationStateV8logLevelAA03LogG0Ovp",
+            "mangledName": "$s10GoPushCore18ConfigurationStateV8logLevelAA03LogG0Ovp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV8logLevelAA03LogG0Ovg",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV8logLevelAA03LogG0Ovg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "GoPushCore.LogLevel",
+                    "usr": "s:10GoPushCore8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV8logLevelAA03LogG0Ovs",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV8logLevelAA03LogG0Ovs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV8logLevelAA03LogG0OvM",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV8logLevelAA03LogG0OvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exportDeliveryMetricsToBigQuery",
+            "printedName": "exportDeliveryMetricsToBigQuery",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvp",
+            "mangledName": "$s10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvg",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvs",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvM",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV31exportDeliveryMetricsToBigQuerySbvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoRegister",
+            "printedName": "autoRegister",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore18ConfigurationStateV12autoRegisterSbvp",
+            "mangledName": "$s10GoPushCore18ConfigurationStateV12autoRegisterSbvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV12autoRegisterSbvg",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV12autoRegisterSbvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV12autoRegisterSbvs",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV12autoRegisterSbvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV12autoRegisterSbvM",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV12autoRegisterSbvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoHandleNotifications",
+            "printedName": "autoHandleNotifications",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvp",
+            "mangledName": "$s10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvg",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvs",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvM",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV23autoHandleNotificationsSbvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swizzleAppDelegate",
+            "printedName": "swizzleAppDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore18ConfigurationStateV18swizzleAppDelegateSbvp",
+            "mangledName": "$s10GoPushCore18ConfigurationStateV18swizzleAppDelegateSbvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore18ConfigurationStateV18swizzleAppDelegateSbvg",
+                "mangledName": "$s10GoPushCore18ConfigurationStateV18swizzleAppDelegateSbvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10GoPushCore18ConfigurationStateV",
+        "mangledName": "$s10GoPushCore18ConfigurationStateV",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoPushClient",
+        "printedName": "GoPushClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseUrl",
+            "printedName": "baseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore0aB6ClientC7baseUrlSSvpZ",
+            "mangledName": "$s10GoPushCore0aB6ClientC7baseUrlSSvpZ",
+            "moduleName": "GoPushCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB6ClientC7baseUrlSSvgZ",
+                "mangledName": "$s10GoPushCore0aB6ClientC7baseUrlSSvgZ",
+                "moduleName": "GoPushCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(httpClient:deviceState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GoPushClient",
+                "printedName": "GoPushCore.GoPushClient",
+                "usr": "s:10GoPushCore0aB6ClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HttpClient",
+                "printedName": "GoPushCore.HttpClient",
+                "usr": "s:10GoPushCore10HttpClientP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceState",
+                "printedName": "GoPushCore.DeviceState",
+                "usr": "s:10GoPushCore11DeviceStateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10GoPushCore0aB6ClientC04httpD011deviceStateAcA04HttpD0_p_AA06DeviceG0Vtcfc",
+            "mangledName": "$s10GoPushCore0aB6ClientC04httpD011deviceStateAcA04HttpD0_p_AA06DeviceG0Vtcfc",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "apiToken",
+            "printedName": "apiToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GoPushCore0aB6ClientC8apiTokenSSvp",
+            "mangledName": "$s10GoPushCore0aB6ClientC8apiTokenSSvp",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB6ClientC8apiTokenSSvg",
+                "mangledName": "$s10GoPushCore0aB6ClientC8apiTokenSSvg",
+                "moduleName": "GoPushCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB6ClientC8apiTokenSSvs",
+                "mangledName": "$s10GoPushCore0aB6ClientC8apiTokenSSvs",
+                "moduleName": "GoPushCore",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GoPushCore0aB6ClientC8apiTokenSSvM",
+                "mangledName": "$s10GoPushCore0aB6ClientC8apiTokenSSvM",
+                "moduleName": "GoPushCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendRequest",
+            "printedName": "sendRequest(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GoPushRequest",
+                "printedName": "GoPushCore.GoPushRequest<τ_0_0>",
+                "usr": "s:10GoPushCore0aB7RequestP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore0aB6ClientC11sendRequest7requestyAA0abF0_px8ResponseRts_XP_tAA0abH0RzlF",
+            "mangledName": "$s10GoPushCore0aB6ClientC11sendRequest7requestyAA0abF0_px8ResponseRts_XP_tAA0abH0RzlF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.GoPushResponse>",
+            "sugared_genericSig": "<T where T : GoPushCore.GoPushResponse>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendRequest",
+            "printedName": "sendRequest(request:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GoPushRequest",
+                "printedName": "GoPushCore.GoPushRequest<τ_0_0>",
+                "usr": "s:10GoPushCore0aB7RequestP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<τ_0_0, GoPushCore.HttpError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<τ_0_0, GoPushCore.HttpError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<τ_0_0, GoPushCore.HttpError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HttpError",
+                            "printedName": "GoPushCore.HttpError",
+                            "usr": "s:10GoPushCore9HttpErrorO"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore0aB6ClientC11sendRequest7request7handleryAA0abF0_px8ResponseRts_XP_ys6ResultOyxAA9HttpErrorOGcSgtAA0abI0RzlF",
+            "mangledName": "$s10GoPushCore0aB6ClientC11sendRequest7request7handleryAA0abF0_px8ResponseRts_XP_ys6ResultOyxAA9HttpErrorOGcSgtAA0abI0RzlF",
+            "moduleName": "GoPushCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : GoPushCore.GoPushResponse>",
+            "sugared_genericSig": "<T where T : GoPushCore.GoPushResponse>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10GoPushCore0aB6ClientC",
+        "mangledName": "$s10GoPushCore0aB6ClientC",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GoPushCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UrlSessionClient",
+        "printedName": "UrlSessionClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UrlSessionClient",
+                "printedName": "GoPushCore.UrlSessionClient",
+                "usr": "s:10GoPushCore16UrlSessionClientC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10GoPushCore16UrlSessionClientCACycfc",
+            "mangledName": "$s10GoPushCore16UrlSessionClientCACycfc",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(url:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore16UrlSessionClientC3get3url7options10completionySS_AA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0K5ErrorOGctF",
+            "mangledName": "$s10GoPushCore16UrlSessionClientC3get3url7options10completionySS_AA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0K5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(url:body:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore16UrlSessionClientC4post3url4body7options10completionySS_SDySSypGAA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0L5ErrorOGctF",
+            "mangledName": "$s10GoPushCore16UrlSessionClientC4post3url4body7options10completionySS_SDySSypGAA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0L5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "put",
+            "printedName": "put(url:body:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore16UrlSessionClientC3put3url4body7options10completionySS_SDySSypGAA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0L5ErrorOGctF",
+            "mangledName": "$s10GoPushCore16UrlSessionClientC3put3url4body7options10completionySS_SDySSypGAA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0L5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "patch",
+            "printedName": "patch(url:body:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore16UrlSessionClientC5patch3url4body7options10completionySS_SDySSypGAA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0L5ErrorOGctF",
+            "mangledName": "$s10GoPushCore16UrlSessionClientC5patch3url4body7options10completionySS_SDySSypGAA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0L5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(url:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoPushCore.HttpRequestOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpRequestOptions",
+                    "printedName": "GoPushCore.HttpRequestOptions",
+                    "usr": "s:10GoPushCore18HttpRequestOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<GoPushCore.Response, GoPushCore.HttpError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<GoPushCore.Response, GoPushCore.HttpError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "GoPushCore.Response",
+                        "usr": "s:10GoPushCore8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpError",
+                        "printedName": "GoPushCore.HttpError",
+                        "usr": "s:10GoPushCore9HttpErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GoPushCore16UrlSessionClientC6delete3url7options10completionySS_AA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0K5ErrorOGctF",
+            "mangledName": "$s10GoPushCore16UrlSessionClientC6delete3url7options10completionySS_AA18HttpRequestOptionsVSgys6ResultOyAA8ResponseVAA0K5ErrorOGctF",
+            "moduleName": "GoPushCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10GoPushCore16UrlSessionClientC",
+        "mangledName": "$s10GoPushCore16UrlSessionClientC",
+        "moduleName": "GoPushCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "HttpClient",
+            "printedName": "HttpClient",
+            "usr": "s:10GoPushCore10HttpClientP",
+            "mangledName": "$s10GoPushCore10HttpClientP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 161,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 195,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 161,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 195,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 161,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 195,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 7,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/DeviceState.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 19,
+      "value": "\"NotificationState\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/DeviceState.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 23,
+      "value": "\"com.gopush.apns_token\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/DeviceState.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 22,
+      "value": "\"com.gopush.fcm_token\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/DeviceState.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 22,
+      "value": "\"com.gopush.device_id\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/FirebaseMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 14,
+      "value": "\"FIRMessaging\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/FirebaseMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 17,
+      "value": "\"extensionHelper\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/FirebaseMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 49,
+      "value": "\"exportDeliveryMetricsToBigQueryWithMessageInfo:\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/FirebaseMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 22,
+      "value": "\"tokenWithCompletion:\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/FirebaseMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 11,
+      "value": "\"messaging\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/ConfigurationState.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 20,
+      "value": "\"ConfigurationState\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/ConfigurationState.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 20,
+      "value": "\"com.gopush.api_key\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/ConfigurationState.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 22,
+      "value": "\"com.gopush.log_level\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/ConfigurationState.swift",
+      "kind": "StringLiteral",
+      "offset": 1728,
+      "length": 49,
+      "value": "\"com.gopush.export_delivery_metrics_to_big_query\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/ConfigurationState.swift",
+      "kind": "StringLiteral",
+      "offset": 2205,
+      "length": 26,
+      "value": "\"com.gopush.auto_register\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/ConfigurationState.swift",
+      "kind": "StringLiteral",
+      "offset": 2566,
+      "length": 38,
+      "value": "\"com.gopush.auto_handle_notifications\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/Api\/GoPushClient.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 36,
+      "value": "\"https:\/\/system.gopush.com\/api\/sdk\/\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushCore\/GoPushCore\/HttpClient\/UrlSessionClient.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 12,
+      "value": "\"HttpClient\""
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module GoPushCore {
+  header "GoPushCore-Swift.h"
+  requires objc
+}

@@ -23,19 +23,19 @@ Pod::Spec.new do |s|
 
   s.subspec 'App' do |app|
     app.ios.vendored_frameworks  = 'bin/GoPushApp.xcframework'
-    app.dependency 'GoPush/Core', '~> 1.0.0'
+    app.dependency 'GoPush/Core'
     app.ios.deployment_target = '14.0'
   end
 
   s.subspec 'Notifications' do |notifications|
     notifications.ios.vendored_frameworks  = 'bin/GoPushNotifications.xcframework'
-    notifications.dependency 'GoPush/Core', '~> 1.0.0'
+    notifications.dependency 'GoPush/Core'
     notifications.ios.deployment_target = '14.0'
   end
 
   s.subspec 'Messaging' do |messaging|
     messaging.ios.vendored_frameworks  = 'bin/GoPushMessaging.xcframework'
-    messaging.dependency 'GoPush/Core', '~> 1.0.0'
+    messaging.dependency 'GoPush/Core'
     messaging.ios.deployment_target = '14.0'
   end
 end

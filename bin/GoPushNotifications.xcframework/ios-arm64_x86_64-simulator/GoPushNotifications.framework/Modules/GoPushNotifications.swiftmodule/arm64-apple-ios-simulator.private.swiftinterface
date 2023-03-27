@@ -1,0 +1,36 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GoPushNotifications
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import GoPushCore
+import Swift
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(GPRemoteNotificationCenter) public class RemoteNotificationCenter : ObjectiveC.NSObject {
+  @objc public static func handler() -> GoPushNotifications.RemoteNotificationHandler
+  @objc public static func shared() -> GoPushNotifications.RemoteNotificationCenter
+  @objc weak public var delegate: GoPushNotifications.RemoteNotificationCenterDelegate?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(GPRemoteNotification) public class RemoteNotification : ObjectiveC.NSObject {
+  @objc final public let data: [Swift.String : Any]
+  @objc final public let link: Foundation.URL?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(GPRemoteNotificationHandler) public class RemoteNotificationHandler : ObjectiveC.NSObject {
+  @objc(didReceiveRemoteNotification:) public func didReceiveRemoteNotification(_ userInfo: [Swift.AnyHashable : Any])
+  @objc(didReceiveNotificationRequest:) public func didReceiveNotificationRequest(_ request: UserNotifications.UNNotificationRequest)
+  @objc(willPresentNotification:) public func willPresentNotification(_ notification: UserNotifications.UNNotification)
+  @objc(didRecieveNotificationResponse:) public func didReceiveNotificationResponse(_ response: UserNotifications.UNNotificationResponse)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(GPRemoteNotificationCenterDelegate) public protocol RemoteNotificationCenterDelegate {
+  @objc(remoteNotificationCenter:didReceive:) optional func remoteNotificationCenter(_ center: GoPushNotifications.RemoteNotificationCenter, didReceive notification: GoPushNotifications.RemoteNotification)
+  @objc(remoteNotificationCenter:willPresent:) optional func remoteNotificationCenter(_ center: GoPushNotifications.RemoteNotificationCenter, willPresent notification: GoPushNotifications.RemoteNotification)
+  @objc(remoteNotificationCenter:didOpen:) optional func remoteNotificationCenter(_ center: GoPushNotifications.RemoteNotificationCenter, didOpen notification: GoPushNotifications.RemoteNotification)
+  @objc(remoteNotificationCenter:didDismiss:) optional func remoteNotificationCenter(_ center: GoPushNotifications.RemoteNotificationCenter, didDismiss notification: GoPushNotifications.RemoteNotification)
+  @objc(remoteNotificationCenter:didOpen:action:category:) optional func remoteNotificationCenter(_ center: GoPushNotifications.RemoteNotificationCenter, didOpen notification: GoPushNotifications.RemoteNotification, action: Swift.String, category: Swift.String)
+}

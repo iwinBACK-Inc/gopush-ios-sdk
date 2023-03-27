@@ -14,28 +14,38 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '14.0'
 
+  s.swift_version = '5.3'
+
   s.default_subspec = 'App'
 
   s.subspec 'Core' do |core|
-    core.ios.vendored_frameworks  = 'bin/GoPushCore.xcframework'
+    core.vendored_frameworks  = 'bin/GoPushCore.xcframework'
     core.ios.deployment_target = '14.0'
+    core.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    core.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
 
   s.subspec 'App' do |app|
-    app.ios.vendored_frameworks  = 'bin/GoPushApp.xcframework'
+    app.vendored_frameworks  = 'bin/GoPushApp.xcframework'
     app.dependency 'GoPush/Core'
     app.ios.deployment_target = '14.0'
+    app.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    app.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
 
   s.subspec 'Notifications' do |notifications|
-    notifications.ios.vendored_frameworks  = 'bin/GoPushNotifications.xcframework'
+    notifications.vendored_frameworks  = 'bin/GoPushNotifications.xcframework'
     notifications.dependency 'GoPush/Core'
     notifications.ios.deployment_target = '14.0'
+    notifications.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    notifications.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
 
   s.subspec 'Messaging' do |messaging|
-    messaging.ios.vendored_frameworks  = 'bin/GoPushMessaging.xcframework'
+    messaging.vendored_frameworks  = 'bin/GoPushMessaging.xcframework'
     messaging.dependency 'GoPush/Core'
     messaging.ios.deployment_target = '14.0'
+    messaging.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    messaging.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
 end

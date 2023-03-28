@@ -2,9 +2,54 @@
 
 1. Set up Firebase Cloud Messaging by following [this guide](https://firebase.google.com/docs/ios/setup). Make sure you add  `FirebaseMessaging` in step 4.4 of the guide.
 
-2. Link your application binary with [GoPushCore.xcframework](bin/GoPushCore.xcframework), [GoPushApp.xcframework](bin/GoPushApp.xcframework), [GoPushNotifications.xcframework](bin/GoPushNotifications.xcframework).
+2. Link your application binary with `FirebaseMessaging`, `GoPushApp`, `GoPushNotifications`:
 
-3. Add Notification Service Extension target and link it with `FirebaseMessaging`, [GoPushCore.xcframework](bin/GoPushCore.xcframework), [GoPushNotifications.xcframework](bin/GoPushNotifications.xcframework).
+### CocoaPods
+
+```ruby
+target 'YourApplicationTarget' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+  use_modular_headers!
+
+  # Pods for GoPushPodTest
+  pod 'Firebase/Messaging'
+  pod 'GoPush/App'
+  pod 'GoPush/Notifications'
+end
+```
+
+### SPM
+
+Add https://github.com/iwinBACK-Inc/gopush-ios-sdk package to your project. Add `GoPushApp`, `GoPushNotifications` products.
+
+### Manual
+
+Link your application target with [GoPushCore.xcframework](bin/GoPushCore.xcframework), [GoPushApp.xcframework](bin/GoPushApp.xcframework), [GoPushNotifications.xcframework](bin/GoPushNotifications.xcframework).
+
+3. Add Notification Service Extension target and link it with `FirebaseMessaging`, `GoPushNotifications`:
+
+### CocoaPods
+
+```ruby
+target 'YourNotificationServiceTarget' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+  use_modular_headers!
+
+  # Pods for GoPushPodTest
+  pod 'Firebase/Messaging'
+  pod 'GoPush/Notifications'
+end
+```
+
+### SPM
+
+Use the same https://github.com/iwinBACK-Inc/gopush-ios-sdk package to link Notification Service extension with `GoPushNotifications`. 
+
+### Manual
+
+Link you Notification Service Extension target with [GoPushCore.xcframework](bin/GoPushCore.xcframework), [GoPushNotifications.xcframework](bin/GoPushNotifications.xcframework).
 
 4. Enable Push Notifications capability
 

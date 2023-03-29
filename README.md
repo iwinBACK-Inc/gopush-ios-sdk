@@ -27,6 +27,8 @@ Add https://github.com/iwinBACK-Inc/gopush-ios-sdk package to your project. Add 
 
 Link your application target with [GoPushCore.xcframework](bin/GoPushCore.xcframework), [GoPushApp.xcframework](bin/GoPushApp.xcframework), [GoPushNotifications.xcframework](bin/GoPushNotifications.xcframework).
 
+
+
 3. Add Notification Service Extension target and link it with `FirebaseMessaging`, `GoPushNotifications`:
 
 ### CocoaPods
@@ -50,6 +52,8 @@ Use the same https://github.com/iwinBACK-Inc/gopush-ios-sdk package to link Noti
 ### Manual
 
 Link you Notification Service Extension target with [GoPushCore.xcframework](bin/GoPushCore.xcframework), [GoPushNotifications.xcframework](bin/GoPushNotifications.xcframework).
+
+
 
 4. Enable Push Notifications capability
 

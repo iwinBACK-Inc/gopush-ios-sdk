@@ -5,6 +5,7 @@
 ## Documentation
 
 * [Quick Start](docs/QuickStart.md)
+* [Manual Integration](docs/ManualInit.md)
 * [Segmentation](docs/Segmentation.md)
 * [Handling Notifications](docs/HandleNotifications.md)
 * [InAppMessaging](docs/InAppMessaging.md)

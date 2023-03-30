@@ -42,7 +42,7 @@ func messaging(_ messaging: InAppMessaging, didFinishPresenting message: InAppMe
 	// Message finished
 }
 
-func messaging(_ messaging: InAppMessaging, didReceive event: InAppMessageEvent, from: message: InAppMessage) {
+func messaging(_ messaging: InAppMessaging, didReceive event: InAppMessageEvent, from message: InAppMessage) {
 	// Handle In-App event
 }
 ```

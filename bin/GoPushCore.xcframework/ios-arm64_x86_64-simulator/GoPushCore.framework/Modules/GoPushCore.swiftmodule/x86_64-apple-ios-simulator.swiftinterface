@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GoPushCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -23,13 +23,13 @@ public enum LogLevel : Swift.Int {
 public struct Logger {
   public static var logLevel: GoPushCore.LogLevel
   public static func error(_ message: Swift.String, component: Swift.String)
-  public static func error(_ message: Swift.String, component: Swift.String, error: Swift.Error)
-  public static func error(_ message: Swift.String, error: Swift.Error)
-  public static func error(error: Swift.Error)
+  public static func error(_ message: Swift.String, component: Swift.String, error: any Swift.Error)
+  public static func error(_ message: Swift.String, error: any Swift.Error)
+  public static func error(error: any Swift.Error)
   public static func warn(_ message: Swift.String, component: Swift.String)
-  public static func warn(_ message: Swift.String, component: Swift.String, error: Swift.Error)
-  public static func warn(_ message: Swift.String, error: Swift.Error)
-  public static func warn(error: Swift.Error)
+  public static func warn(_ message: Swift.String, component: Swift.String, error: any Swift.Error)
+  public static func warn(_ message: Swift.String, error: any Swift.Error)
+  public static func warn(error: any Swift.Error)
   public static func info(_ message: Swift.String, component: Swift.String)
   public static func info(_ message: Swift.String)
   public static func debug(_ message: Swift.String, component: Swift.String)
@@ -81,7 +81,7 @@ public struct FirebaseMessaging {
   public init()
   public func exportDeliveryMetricsToBigQuery(withMessageInfo: [Swift.AnyHashable : Any])
   public func messaging() -> Swift.AnyObject?
-  public func getToken(completion: @escaping (Swift.Result<Swift.String?, Swift.Error>) -> Swift.Void)
+  public func getToken(completion: @escaping (Swift.Result<Swift.String?, any Swift.Error>) -> Swift.Void)
 }
 public protocol GoPushResponse {
   var statusCode: Swift.Int { get }
@@ -138,7 +138,7 @@ public struct ConfigurationState {
 }
 public class GoPushClient {
   public static let baseUrl: Swift.String
-  public init(httpClient: GoPushCore.HttpClient, deviceState: GoPushCore.DeviceState)
+  public init(httpClient: any GoPushCore.HttpClient, deviceState: GoPushCore.DeviceState)
   public var apiToken: Swift.String {
     get
     set

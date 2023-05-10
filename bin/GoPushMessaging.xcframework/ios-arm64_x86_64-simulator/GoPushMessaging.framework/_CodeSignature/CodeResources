@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/GoPushMessaging-Swift.h</key>
 		<data>
-		6jT98BAugY+7fqeykg7B/Sl4HEk=
+		dkVR2chHvy3Xlsv8MMhVywwAS7k=
 		</data>
 		<key>Headers/GoPushMessaging.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P5FdiEQjEpCHx1e1tM2D/JGwq8c=
+		QTL1VmqDHqN1Xcr2IZX4/UIsge0=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iGoc6nWBmrZ3HIqvleUGaoB5DsM=
+		SMJsOJL3qeU0ipV5sOuSEaEb/A0=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6R8/SnHJ+RlIpTJHSXkjMb137SA=
+		GeEvhNM1IOFBCoT+QmI1FX7Ad70=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		x+CiikAGcTQHt9IduChCuu70JTo=
+		RQ4bcWSm3ZFogjTBmU9fpcURzak=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6R8/SnHJ+RlIpTJHSXkjMb137SA=
+		GeEvhNM1IOFBCoT+QmI1FX7Ad70=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		++ja5WnTBChGMTYsEHqTr1wF5nw=
+		uTLsx4xCQRZl4WbZ5Fl7WYgMOmE=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iGoc6nWBmrZ3HIqvleUGaoB5DsM=
+		SMJsOJL3qeU0ipV5sOuSEaEb/A0=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gy6aZJYw5aLwKedFXcm662IOFOQ=
+		KuU5llaeq3+lHfgmCS9FJrF+msI=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		en+YhhQYLcRwZyHzystO+KfnqzU=
+		YlJQ11SywQQCo7ggA3QR1jKyFAI=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gy6aZJYw5aLwKedFXcm662IOFOQ=
+		KuU5llaeq3+lHfgmCS9FJrF+msI=
 		</data>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bP1IwuoJQZFu5fv9oTrm8mWSJt0=
+		3/uJWBbz8jdTTr8CvwkbT+850mY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6jT98BAugY+7fqeykg7B/Sl4HEk=
+			dkVR2chHvy3Xlsv8MMhVywwAS7k=
 			</data>
 			<key>hash2</key>
 			<data>
-			1m4wqQp5tAJDi2YGsfUbNSZsyt7Zb7KUaAu3MHQmxVA=
+			JUqlalRmjvlAkyKDr8MY4KsTdl6rWBUWADD2HDJ+81M=
 			</data>
 		</dict>
 		<key>Headers/GoPushMessaging.h</key>
@@ -89,110 +89,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iGoc6nWBmrZ3HIqvleUGaoB5DsM=
+			SMJsOJL3qeU0ipV5sOuSEaEb/A0=
 			</data>
 			<key>hash2</key>
 			<data>
-			KD54W3eDGbFtZukJUFseIsht4RLG1LVLAzYI3ARMhSM=
+			ic4lAypCyHv338f7nu0XFpCaVarxK3MwpPWQMnSE0JA=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6R8/SnHJ+RlIpTJHSXkjMb137SA=
+			GeEvhNM1IOFBCoT+QmI1FX7Ad70=
 			</data>
 			<key>hash2</key>
 			<data>
-			kJSXCW6OdL/p8IBWiScqw9cSZnLPyRp7SLsspQPnj9I=
+			T9nxR8tunfweOYZRPGRmZ/UvgYeI5edQX7iekB+zJbs=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x+CiikAGcTQHt9IduChCuu70JTo=
+			RQ4bcWSm3ZFogjTBmU9fpcURzak=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vya86NbHkmRooR+fiQteZWhGmdZmMhOz4GCdHBeRg3A=
+			iMP9Zzmeus0E9i/qWipvVk06cLWWwA3+b6TAGHXtgio=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6R8/SnHJ+RlIpTJHSXkjMb137SA=
+			GeEvhNM1IOFBCoT+QmI1FX7Ad70=
 			</data>
 			<key>hash2</key>
 			<data>
-			kJSXCW6OdL/p8IBWiScqw9cSZnLPyRp7SLsspQPnj9I=
+			T9nxR8tunfweOYZRPGRmZ/UvgYeI5edQX7iekB+zJbs=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			++ja5WnTBChGMTYsEHqTr1wF5nw=
+			uTLsx4xCQRZl4WbZ5Fl7WYgMOmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zRgW/GfC3KCGdF0/cMWTPoMtlxeEPkZ2v+jrvPRJEQA=
+			AMsXYram6wJHla+mXPpfgauaWbQ7UlPqaa6teJonUgE=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iGoc6nWBmrZ3HIqvleUGaoB5DsM=
+			SMJsOJL3qeU0ipV5sOuSEaEb/A0=
 			</data>
 			<key>hash2</key>
 			<data>
-			KD54W3eDGbFtZukJUFseIsht4RLG1LVLAzYI3ARMhSM=
+			ic4lAypCyHv338f7nu0XFpCaVarxK3MwpPWQMnSE0JA=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gy6aZJYw5aLwKedFXcm662IOFOQ=
+			KuU5llaeq3+lHfgmCS9FJrF+msI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3SuN5NLU9niOZg18Okf4bdq8fAb21Z3HUhpog+q3eco=
+			yyyo4y84jOUj/hmOPRGZhwPaAAZh3Z4gooJQvNDHHz0=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			en+YhhQYLcRwZyHzystO+KfnqzU=
+			YlJQ11SywQQCo7ggA3QR1jKyFAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z9c1gaXbpswJfvyMrCuW1IsJQtav0cLi+tcohPydF2E=
+			pbC4yoYSK30x+i5N5+Dm4PN1VAx/XTaem2bfSamoQXE=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gy6aZJYw5aLwKedFXcm662IOFOQ=
+			KuU5llaeq3+lHfgmCS9FJrF+msI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3SuN5NLU9niOZg18Okf4bdq8fAb21Z3HUhpog+q3eco=
+			yyyo4y84jOUj/hmOPRGZhwPaAAZh3Z4gooJQvNDHHz0=
 			</data>
 		</dict>
 		<key>Modules/GoPushMessaging.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bP1IwuoJQZFu5fv9oTrm8mWSJt0=
+			3/uJWBbz8jdTTr8CvwkbT+850mY=
 			</data>
 			<key>hash2</key>
 			<data>
-			kG7KDNJdamkYT/wY5fjOJwHdJGfkfWH2p+gsWpGxrbM=
+			bhXPIKUxEF3zHadcvbtUMxzZoWSz1cd7l1FVrSvNVRQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

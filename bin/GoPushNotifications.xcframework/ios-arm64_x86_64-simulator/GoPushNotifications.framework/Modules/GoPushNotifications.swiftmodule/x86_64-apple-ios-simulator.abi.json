@@ -50,8 +50,32 @@
       },
       {
         "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "GoPushNotifications"
+      },
+      {
+        "kind": "Import",
+        "name": "GoPushCore",
+        "printedName": "GoPushCore",
         "declKind": "Import",
         "moduleName": "GoPushNotifications"
       },
@@ -478,6 +502,56 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(im)link",
                 "mangledName": "$s19GoPushNotifications18RemoteNotificationC4link10Foundation3URLVSgvg",
+                "moduleName": "GoPushNotifications",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(py)id",
+            "mangledName": "$s19GoPushNotifications18RemoteNotificationC2idSSvp",
+            "moduleName": "GoPushNotifications",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GoPushNotifications@objc(cs)GPRemoteNotification(im)id",
+                "mangledName": "$s19GoPushNotifications18RemoteNotificationC2idSSvg",
                 "moduleName": "GoPushNotifications",
                 "implicit": true,
                 "declAttributes": [
@@ -1062,11 +1136,151 @@
       "value": "\"openUrl:\""
     },
     {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/ApplicationProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 591,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/ApplicationProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/ApplicationProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 847,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/RunitmeUNCenterDelegate.swift",
       "kind": "StringLiteral",
       "offset": 3487,
       "length": 14,
       "value": "\"setDelegate:\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/Api\/TrackNotificationActivityRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 23,
+      "value": "\"NOTIFICATION_RECEIVED\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/Api\/TrackNotificationActivityRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 22,
+      "value": "\"NOTIFICATION_CLICKED\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/Api\/TrackNotificationActivityRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 23,
+      "value": "\"NOTIFICATION_RECEIVED\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/Api\/TrackNotificationActivityRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 22,
+      "value": "\"NOTIFICATION_CLICKED\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/Api\/TrackNotificationActivityRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 12,
+      "value": "\"activities\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/Api\/TrackNotificationActivityRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/Api\/TrackNotificationActivityRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 16,
+      "value": "\"notificationId\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1433,
+      "length": 8,
+      "value": "\"gopush\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1495,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 5,
+      "value": "\"nid\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "Dictionary",
+      "offset": 1598,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "Array",
+      "offset": 1732,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "Dictionary",
+      "offset": 1781,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",
+      "kind": "StringLiteral",
+      "offset": 1967,
+      "length": 6,
+      "value": "\"link\""
     },
     {
       "filePath": "\/Users\/dmitry\/workspace\/iwinback\/gopushsdkios\/GoPushNotifications\/GoPushNotifications\/GoPushNotifications.swift",

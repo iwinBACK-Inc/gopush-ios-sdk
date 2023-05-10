@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/GoPushNotifications-Swift.h</key>
 		<data>
-		Q67l3X7WcMhsTgX4NgalIztoQk0=
+		LN05r1iFL2twwIF22EDxsLce0ik=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QgXagviHf4YTFW66sWxSOeudWNY=
+		2yosy6B58Ot9q/rt1JVSFOXQuqQ=
 		</data>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WnP+ZAogC74Ad+Lv5+3YGwvYXzs=
+		4ZGpUUy+C1cmvRzLwabq6m+Zrq0=
 		</data>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NqILZDBiXik4LQiW8ph2YTZ5zgY=
+		ob9o8jNBQXH6oewNNMmRZ+dL5z0=
 		</data>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		K3PPM2vkQdD4ey50sgvcybgCj9Q=
+		HWSe7Z2x34ezx3ijEHURnOShp6A=
 		</data>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NqILZDBiXik4LQiW8ph2YTZ5zgY=
+		ob9o8jNBQXH6oewNNMmRZ+dL5z0=
 		</data>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4DbAbHCL4a2OFm74hXsIXwHe0a4=
+		FwGNDaH1qlEu9Ya+1mx0P9KO5/k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,66 +43,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q67l3X7WcMhsTgX4NgalIztoQk0=
+			LN05r1iFL2twwIF22EDxsLce0ik=
 			</data>
 			<key>hash2</key>
 			<data>
-			/q9uUjgJWriYtV0EsW6g5h7cqT4Im44hGiIkGcj4Fa4=
+			1n/UNUfXn3G0EIhZTBQAABfX222SON8KVT2YVkh9l5E=
 			</data>
 		</dict>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WnP+ZAogC74Ad+Lv5+3YGwvYXzs=
+			4ZGpUUy+C1cmvRzLwabq6m+Zrq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			V9AirUyse5NczijWRlQ/7T6guaayGz+K1uTi+Ov0LvU=
+			mLx/dWg8YmSY9Nv7J9qErXp0FGpJhJUBL8gZx/omw0w=
 			</data>
 		</dict>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NqILZDBiXik4LQiW8ph2YTZ5zgY=
+			ob9o8jNBQXH6oewNNMmRZ+dL5z0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hiSGwWkxUSP75IQk9tb8LEvrSu0cRAUSwRFQbD+PXGQ=
+			5wClFLYYJ0To5akKbbMNXkSoq5TZGSHb/QwKP2nBGPs=
 			</data>
 		</dict>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K3PPM2vkQdD4ey50sgvcybgCj9Q=
+			HWSe7Z2x34ezx3ijEHURnOShp6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			ROiHm3C5OwyDUsjJB2CDpX3O0owIN2Bs27iJlR5xjVw=
+			yvHRhVdpaNzr5lrRZAMWRAksbR3yKoI9f0+wevNI0fI=
 			</data>
 		</dict>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NqILZDBiXik4LQiW8ph2YTZ5zgY=
+			ob9o8jNBQXH6oewNNMmRZ+dL5z0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hiSGwWkxUSP75IQk9tb8LEvrSu0cRAUSwRFQbD+PXGQ=
+			5wClFLYYJ0To5akKbbMNXkSoq5TZGSHb/QwKP2nBGPs=
 			</data>
 		</dict>
 		<key>Modules/GoPushNotifications.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4DbAbHCL4a2OFm74hXsIXwHe0a4=
+			FwGNDaH1qlEu9Ya+1mx0P9KO5/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			YDtDDnbAo8zr/Mx1fzXYZEBbv8sR7waWwGqnBT1QufE=
+			u73vVRjNTGIGNLKc1j8iFvLHz1uOTWs74wXIB+clZsI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

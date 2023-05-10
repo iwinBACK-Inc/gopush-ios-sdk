@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GoPushApp"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "GoPush Main"
   s.platform     = :ios
 
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.0'
   s.ios.vendored_frameworks  = 'bin/GoPushApp.xcframework'
 
-  s.dependency 'GoPushCore', '~> 1.0.0'
+  s.dependency 'GoPushCore', '~> 1.1.0'
 end
